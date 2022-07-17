@@ -10,6 +10,16 @@
       name="description"
       content="en esta pagina estamos aprendiendo los fundamentos de html con jonh mircha"
     />
+    <link rel="canonical" href="http://midominio.com/url-canonica">
+    <link rel="icon" href="assets/school-cat.jpg">
+    <link rel="apple-touch-icon" href="assets/school-cat.jpg">
+    <meta name="theme-color" content="#103920">
+    <meta propety="og:title" content="aprendiendot html">
+    <meta property="og:description" content="los fundamentos de html para la web bois">
+    <meta propety="og:image" content="assets/school-cat.jpg">
+    <meta property="og:url" content="http://midominio.com/url-canonic">
+    <meta name="twiter:card" content="summary">     
+    <meta name="twiter:site" content="@jonmircha">
     <!-- hasta 165 caracteres -->
 
     <!-- linkear cualquier cosas -->
@@ -22,7 +32,7 @@
       }
     </style> -->
   </head>
-  <body>
+  <body id="inicio">
     <!-- se puede poner estilos en el body -->
     <!-- <style>
       h2{
@@ -31,15 +41,72 @@
     </style> -->
     <!-- comentario  -->
     <h2>curso de html</h2>
-    <h2>encabezados html</h2>
+    <h2>temario</h2>
+    <ul>
+      <li>
+        <a href="#encabezados">encabezados</a>
+      </li>
+      <li>
+        <a href="#etiquetas-basicas">etiquetas basicas</a>
+      </li>
+      <li>
+        <a href="#etiquetas-semanticas">etiquetas semanticas</a>
+      </li>
+      <li>
+        <a href="#etiquetas-formateo">etiquetas de formateo</a>
+      </li>
+      <li>
+        <a href="#etiquetas-sem-estructurales"> etiquetas semanticas estructurales </a>
+      </li>
+      <li>
+        <a href="#bloque-vs-linea">etiquetas de bloque vs etiquetas de linea</a>
+      </li>
+      <li>
+        <a href="#imagenes">imagenes</a>
+      </li>
+      <li>
+        <a href="#figuras">figuras</a>
+      </li>
+      <li>
+        <a href="#listas-desordenadas">listas desordenadas</a>
+      </li>
+      <li>
+        <a href="#enlaces"> enlaces</a>
+      </li>
+      <li>
+        <a href="#enlaces-internos"> enlaces internos</a>
+      </li>
+      <li>
+        <a href="#elementos-interactivos"> elementos interactivos</a>
+      </li>
+      <li>
+        <a href="#audio-video"> audio y video</a>
+      </li>
+      <li>
+        <a href="#iframe"> iframe</a>
+      </li>
+      <li>
+        <a href="#formularios"> formularios</a>
+      </li>
+      <li>
+        <a href="#data-attributes"> data attributes</a>
+      </li>
+      <li>
+        <a href="#accesibilidad-web"> accesibilidad-web</a>
+      </li>
+
+    </ul>
+    <h2 id="encabezados">encabezados html</h2>
     <h1>h1: <i> solo puede haber una sola etiqueta en el documento </i></h1>
     <h2>h2</h2>
     <h3>h3</h3>
     <h4>h4</h4>
     <h5>h5</h5>
     <h6>h6</h6>
+    <a href="#inicio">inicio</a>
+
     <hr>
-    <h2>etiquetas de texto basicas</h2>
+    <h2 id="etiquetas-basicas">etiquetas de texto basicas</h2>
     <p>
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse hic tempore
       quo repellat, vel dignissimos obcaecati veritatis reprehenderit sapiente
@@ -51,8 +118,9 @@
       <b>negrita</b>, <i>italica</i>, <u>subrayado</u>, H<sub>2</sub>O
       <mark>marcatexto</mark> <small>letras pequeñas</small>
     </p>
+    <a href="#inicio">inicio</a>
     <hr>
-    <h2>etiquetas de texto semanticas</h2>
+    <h2 id="etiquetas-semanticas">etiquetas de texto semanticas</h2>
     <p>
       <strong>palabra importante</strong>
       <em>texto con enfasis</em>
@@ -63,8 +131,9 @@
     </p>
     <h2>etiquetas de salto</h2>
     <p>Lorem ipsum dolor sit amet  consectetur adipisicing elit. <br> Voluptates suscipit eveniet quas magni saepe labore enim et, ducimus, consectetur iusto cupiditate odio eius laboriosam necessitatibus ratione ipsa nesciunt odit officia!</p>
+    <a href="#inicio">inicio</a>
     <hr>
-    <h2>etiquetas de formateo</h2>
+    <h2 id="etiquetas-formateo">etiquetas de formateo</h2>
     <p>
       <pre>
       tareas por hacer
@@ -82,8 +151,9 @@
         </code>
       </pre>
     </p>
+    <a href="#inicio">inicio</a>
     <hr>
-    <h2> etiquetas semanticas estructurales </h2>
+    <h2 id="etiquetas-sem-estructurales"> etiquetas semanticas estructurales </h2>
     <div>
       div - es una etiqueta contenedora que no tiene semantica
     </div>
@@ -107,8 +177,9 @@
       section - representa  
     </section>
     <address>address - representa una direccion fisica</address>
+    <a href="#inicio">inicio</a>
     <hr>
-    <h2>eitquetas de bloque vs etiquetas de linea</h2>
+    <h2 id="bloque-vs-linea">etiquetas de bloque vs etiquetas de linea</h2>
     <div style="background-color: yellow;">la etiqueta de bloque por excelencia es la div: una etiqueta de bloque es aqulla que genera saltos de linea con sus etiquetas hermanas</div>
     <span style="background-color: greenyellow;">la etiqueta de linea por excelencia es la span: esta solo ocupa el espacio necesario que tiene su contenido</span>
     <span>hola soy otra span</span>
@@ -127,19 +198,22 @@
        - html
        - src
     </pre>
+    <a href="#inicio">inicio</a>
     <hr>
-    <h2>imagenes</h2>
+    <h2 id="imagenes">imagenes</h2>
     <img src="assets/school-cat.jpg" alt="ejemplo">
     <img src="assets/download.jpg" alt="skipper miedo">
     <img src="assets/skipper-penguins-of-madagascar.gif" alt="skipper gif">
     <img src="assets/DailySketch-Cats-2015041340.svg" alt="cat">
     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5 7H19C19.5523 7 20 7.44771 20 8V16C20 16.5523 19.5523 17 19 17H5C4.44772 17 4 16.5523 4 16V8C4 7.44772 4.44772 7 5 7ZM2 8C2 6.34315 3.34315 5 5 5H19C20.6569 5 22 6.34315 22 8V16C22 17.6569 20.6569 19 19 19H5C3.34315 19 2 17.6569 2 16V8ZM10 9L14 12L10 15V9Z" fill="currentColor" /></svg>
+    <a href="#inicio">inicio</a>
     <hr>
-    <h2>figuras</h2>
+    <h2 id="figuras">figuras</h2>
     <figure>
       <img src="assets/school-cat.jpg" alt="cats">
       <figcaption>gato del colegio</figcaption>
     </figure>
+    <a href="#inicio">inicio</a>
     <hr>
     <h2>listas ordenadas</h2>
     <h3>las esetaciones del año</h3>
@@ -185,8 +259,9 @@
       <li>otoño</li>
       <li>invierno</li>
     </ol>
+    <a href="#inicio">inicio</a>
     <hr>
-    <h2>listas desordenadas</h2>
+    <h2 id="listas-desordenadas">listas desordenadas</h2>
     cosas por hacer
     <ul>
       <li>terminar el curso</li>
@@ -200,6 +275,8 @@
       <li>terminar el curso</li>
       <li>seguir a css</li>
     </ul>
+    <a href="#inicio">inicio</a>
+
     <hr>
     <h2>listas de definicion</h2>
     <h3>glosario</h3>
@@ -260,10 +337,269 @@
       </tbody>
       <tfoot>
         <tr>
-          <th colspan="3">los fictis de crimea fue creado por nadie</th>
+          <th colspan="3">los fictis de crimea fue creado por mi</th>
         </tr>
       </tfoot>
     </table>
+    <a href="#inicio">inicio</a>
+
+    <hr>
+    <h2 id="enlaces">enlaces</h2>
+    <a  href="hola.html">hola</a>
+    <a target="_blank" href="https://youtube.com" rel="nofollow">youtube</a>
+    <a target="_blank" href="https://youtube.com" rel="nofollow">
+      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5 7H19C19.5523 7 20 7.44771 20 8V16C20 16.5523 19.5523 17 19 17H5C4.44772 17 4 16.5523 4 16V8C4 7.44772 4.44772 7 5 7ZM2 8C2 6.34315 3.34315 5 5 5H19C20.6569 5 22 6.34315 22 8V16C22 17.6569 20.6569 19 19 19H5C3.34315 19 2 17.6569 2 16V8ZM10 9L14 12L10 15V9Z" fill="currentColor" /></svg>
+    </a>
+    <a href="mailto:hola@jonmircha.com">correo electronico</a>
+    <a href="tel:6012345679">numero celular</a>
+    <a href="https://api.whatsapp.com/send?phone=65654654654&text=hola" target="_blank">whatsapp</a>
+    <a href="#inicio">inicio</a>
+
+    <hr>
+    <h2 id="enlaces-internos">enlaces internos</h2>
+    <ul>
+      <li>
+        <a href="#inicio">inicio</a>
+      </li>
+      <li>
+        <a href="#encabezados">encabezados</a>
+      </li>
+      <li>
+        <a href="#etiquetas-basicas">etiquetas basicas</a>
+      </li>
+      <li>
+        <a href="#etiquetas-semanticas">etiquetas semanticas</a>
+      </li>
+      <li>
+        <a href="#etiquetas-formateo">etiquetas de formateo</a>
+      </li>
+      <li>
+        <a href="#etiquetas-sem-estructurales"> etiquetas semanticas estructurales </a>
+      </li>
+      <li>
+        <a href="#bloque-vs-linea">etiquetas de bloque vs etiquetas de linea</a>
+      </li>
+      <li>
+        <a href="#imagenes">imagenes</a>
+      </li>
+      <li>
+        <a href="#figuras">figuras</a>
+      </li>
+      <li>
+        <a href="#listas-desordenadas">listas desordenadas</a>
+      </li>
+      <li>
+        <a href="#enlaces"> enlaces</a>
+      </li>
+    </ul>
+    <hr>
+    <h2 id="elementos-interactivos">elementos interactivos</h2>
+    <button onclick="document.getElementById('modal').open = true">abrir modal</button>
+    <br>
+    <details>
+      <summary>titulo del acordeon</summary>
+      <article>
+        <h3>contenido del acordeon</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat id quam quia! Dolorum vero sit repellat beatae quaerat est ex provident, nesciunt laborum, delectus, architecto voluptas repudiandae minima aperiam ut?</p>
+      </article>
+    </details>
+    <br>
+    <details open>
+      <summary>titulo del acordeon</summary>
+      <article>
+        <h3>contenido del acordeon</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat id quam quia! Dolorum vero sit repellat beatae quaerat est ex provident, nesciunt laborum, delectus, architecto voluptas repudiandae minima aperiam ut?</p>
+      </article>
+    </details>
+    <br>
+    <dialog id="modal">hola mircha</dialog>
+    <a href="#inicio">link</a>
+    <hr>
+    <h2 id="audio-video">audio y video</h2>
+    <details>
+      <summary>ejemplos aqui</summary>
+      <audio src="media/Scarlet Fire - Otis McDonald.mp3" controls loop></audio>
+      <video width="1500" height="1200" src="media/PRACTICA 2.fla 2021-04-17 19-56-08.mp4" controls></video>
+      <a href="#inicio">link</a>
+      <hr>
+      <h2 id="iframe">iframes</h2>
+      <iframe src="hola.html" frameborder="3"></iframe>
+      <br>
+      <iframe src="https://www.youtube.com/" frameborder="3"></iframe>
+      <br>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7952.82364976298!2d-74.2044546784875!3d4.698296132091431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9d4512c4c77f%3A0x32eb7bbb03acc2aa!2sCummins%20De%20Los%20Andes%20Mosquera!5e0!3m2!1ses!2sco!4v1657898613589!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <br>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/LQPyj6-gWP4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </details>
+    <br>
+    <a href="#inicio">link</a>
+    <hr>
+    <h2 id="formularios">formularios</h2>
+    <h3>elementos de formularios</h3>
+    <input type="text">
+    <br>
+    <input type="checkbox" name="" id="">
+    <br>
+    <input type="radio">
+    <br>
+    <input type="date" name="" id="">
+    <br>
+    <input type="color">
+    <br>
+    <input type="button" value="boton">
+    <br>
+    <input type="submit">
+    <br>
+    <input type="reset">
+    <br>
+    <input type="file">
+    <input type="file" multiple>
+    <br>
+    <input type="hidden" name="idioma" value="es">
+    <br>
+    <input type="email" name="" id="">
+    <br>
+    <input type="number">
+    <br>
+    <input type="tel">
+    <br>
+    <input type="password">
+    <br>
+    <input type="search">
+    <br>
+    <textarea name="" id="" cols="30" rows="5" placeholder="write anything"></textarea>
+    <br>
+    <select name="" id="" >
+      <option value="">html</option>
+      <option value="">css</option>
+      <option value="">javascript</option>
+    </select>
+    <select name="" id="" multiple>
+      <option value="">html</option>
+      <option value="">css</option>
+      <option value="">javascript</option>
+    </select>
+    <br>
+    <input type="text" readonly value="mateo" disabled>
+    <br>
+    <input type="text" name="" id="" placeholder="hola mateo del pasado">
+    <br>
+    <br>
+    <h3>ejemplo de formularios</h3>
+    <h3>formulario de login</h3>
+    <form action="https://jonmircha.com/">
+      <label for="usuario">usuario</label>
+      <br>
+      <input type="text" name="usuario" id="usuario"  placeholder="usuario" required pattern="^[A-Za-z]$" title="el campo solo acepta letras">
+      <br>
+      <br>
+      <label for="">email</label>
+      <br>
+      <input type="email" autocomplete="off">
+      <br>
+      <br>
+      <label for="password">contraseña</label>
+      <br>  
+      <input type="password" id="password" name="password" placeholder="contraseña" required >
+      <br>
+      <input type="submit">
+      <br>
+      <input type="reset">   
+    </form>
+    <br>
+    <br>
+    <br>
+    <h4>selectsm radios y checkbox</h4>
+    <form >
+      <p>elige tu idioma</p>
+      <select name="idioma" id="" required>
+        <option value="">elige una opcion</option>
+        <option value="es" selected>es</option>
+        <option value="en">en</option>
+        <option value="fr">fr</option>
+        <option value="pt">pt</option>
+      </select>
+      <br>
+      <br>
+      <p>elige tu lenguaje de programacion</p>
+      <input type="radio" name="lenguaje" id="radio-js">
+      <label for="radio-js">javascript</label>
+      <br>
+      <input type="radio" name="lenguaje" id="radio-py">
+      <label for="radio-py">python</label>
+      <br>
+      <input type="radio" name="lenguaje" id="radio-rust">
+      <label for="radio-rust">rust</label>
+      <br>
+      <br>
+      <p>elige tus intereses</p>
+      <label >
+        <input type="checkbox" name="intereses" value="deportes">
+        deportes
+      </label>
+      <label >
+        <input type="checkbox" name="intereses" value="finanzas">
+        finanzas
+      </label>
+      <label >
+        <input type="checkbox" name="intereses" value="moda">
+        moda
+      </label>
+      <label >
+        <input type="checkbox" name="intereses" value="salud">
+        salud
+      </label>
+      <br>
+      <p>
+        <label>
+          <input type="checkbox">
+          aceptas terminos y condiciones
+        </label>
+      </p>
+      <br>
+      <input type="submit">
+      <input type="reset">
+      <br>
+    </form>
+    <br>
+    <h4>formulario de contacto</h4>
+      <form action="https://formsubmit.co/mateo.rodriguez.fierro@gmail.com" method="POST">
+        <input type="text" name="" id="" placeholder="escribe tu nombre" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" title="nombre d¿solo acepta letras y espacios en blanco" required>
+        <input type="email" name="correo" placeholder="escribe tu correo" pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$" title="formato de correo invalido">
+        <br>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <br>
+        <input type="submit">
+        <input type="reset">
+        <br>
+  
+      </form>
+    <br>
+    <a href="#inicio">link</a>
+    <hr>
+    <h2 id="data-attributes">data attributes</h2>
+    <ul>
+      <li data-id="1" data-name="spring">primavera</li>
+      <li data-id="2" data-name="summer">verano</li>
+      <li data-id="3" data-name="autumn">otoño</li>
+      <li data-id="4" data-name="winter">invierno</li>
+    </ul>
+    <a href="#inicio">link</a>
+    <hr>
+    <h2 id="metas-seo">meta etiquetas seo</h2>
+    <br>
+    <h2>meta etiquetas para redes sociales</h2>
+    <br>
+    <hr>
+    <h2 id="accesibilidad-web">accesibilidad web</h2>
+    <h3 role="title">estaciones del año</h3>
+    <ul tabindex="1" role="list" >
+      <li tabindex="2" role="listitem"  data-id="1" data-name="spring">primavera</li>
+      <li tabindex="3" role="listitem"  data-id="2" data-name="summer">verano</li>
+      <li tabindex="4" role="listitem"  data-id="3" data-name="autumn">otoño</li>
+      <li tabindex="5" role="listitem"  data-id="4" data-name="winter">invierno</li>
+    </ul>
+    <a role="link" aria-label="" target="_blank" href="#">mas info...</a>
     <script src="js/codigo.js">
     </script>
   </body>
