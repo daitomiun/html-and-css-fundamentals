@@ -1,0 +1,24 @@
+/**
+  better comments
+  ** reglas css
+  **   1) el selector 
+  **   2) bloques de declaraciones
+  *?     .clase, #id, tags{
+  *todo    atributo: valor;
+  *?      }
+  **  
+*/
+
+/**
+  *! mala practica, porque puede bloquear la pagina
+*/
+@import url("otra-hoja.css");
+
+h1 {
+  color: green;
+}
+
+p {
+  font-weight: bolder;
+  color: blue;
+}
